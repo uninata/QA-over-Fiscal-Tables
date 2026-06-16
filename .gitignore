@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor junk
+.DS_Store
+~$*
+
+# Bulky generated artifacts
+results/raw/
+*.log
+.claude/
+scripts/
+deliverables/
+reports/

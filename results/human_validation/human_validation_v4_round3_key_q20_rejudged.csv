@@ -1,0 +1,61 @@
+sample_id,question_id,model,context,judge_score,judge_reasoning
+1,20,glm-5,ru_structured_full,3,"The model correctly identified the same three programs as the reference answer, providing matching entities and context."
+2,15,kimi-k2.6,ru_markdown_full,2,Model gave a numeric answer for the count but the number (31) does not match the correct value (57).
+3,9,mistral-medium-3.5,ru_statements_full,0,"The model claims insufficient data, whereas the reference provides a specific decline of 7.1%."
+4,6,mistral-medium-3.5,ru_statements_16000tok,3,"The model provides the same funding amount, differing only by rounding, which is acceptable."
+5,18,mistral-medium-3.5,ru_statements_full,3,"The model answer matches the reference exactly, providing the correct program name and funding amount."
+6,20,glm-5,ru_statements_16000tok,0,The model answer lists different programs and does not match any of the top-3 programs identified in the reference answer.
+7,3,mistral-medium-3.5,ru_markdown_full,3,The answer correctly identifies the program 'Общегосударственные программы' with the exact funding amount matching the reference.
+8,11,qwen3.5-122b,ru_structured_16000tok,3,"Model answer correctly provides the most common unit of measurement, percentage, matching the reference."
+9,18,deepseek-v4-pro-thinking,ru_structured_full,2,"The answer gives the correct amount and a close program name, but the program title is incomplete compared to the reference."
+10,9,qwen3.5-122b,ru_markdown_16000tok,2,Model correctly states the budget declines but gives an incorrect percentage (15.18% vs 7.1%).
+11,3,mistral-medium-3.5,ru_statements_8000tok,2,"Correct program name identified, but the funding amount is incorrect."
+12,14,mistral-medium-3.5,ru_markdown_8000tok,0,The model answer does not provide the correct count of programs (9) and gives no correct answer to the question.
+13,16,kimi-k2.6,ru_structured_16000tok,0,"Model answer reports 49.58% based on incorrect figures, whereas reference states the correct share is 56%."
+14,3,qwen3.5-122b,ru_statements_8000tok,0,"The model gave a different program and amount, not matching the reference answer."
+15,11,glm-5,ru_statements_8000tok,3,"Model answer correctly provides the most common unit of measurement, percentage, matching the reference."
+16,20,deepseek-v4-pro-thinking,ru_markdown_8000tok,1,"Only the first program matches the reference; the other two listed programs are incorrect, so the answer is related but wrong."
+17,19,glm-5,ru_markdown_8000tok,2,The answer mentions the correct entities (programs and measures) but provides incorrect numbers compared to the reference.
+18,9,qwen3.5-122b,ru_structured_full,2,"Correctly states the budget declines, but gives the wrong percentage (2.13% vs 7.1%)."
+19,4,qwen3.5,ru_markdown_full,2,The answer addresses the correct entity (ministries and agencies) but gives an incorrect total count (59 instead of 60).
+20,15,qwen3.5,ru_statements_full,2,The model identified the correct entity (number of budget lines) but gave an incorrect value (17 instead of 57).
+21,8,mistral-medium-3.5,ru_markdown_8000tok,0,"The model claims no data is available, which is incorrect compared to the reference that provides the funding figures."
+22,20,qwen3.5,ru_structured_8000tok,1,"Only one of the three programs matches the reference; the other two are incorrect, so the answer is largely wrong."
+23,20,kimi-k2.6,ru_markdown_8000tok,1,"Only one of the three programs matches the reference; the other two are incorrect, so the answer is related but wrong."
+24,1,kimi-k2.6,ru_markdown_8000tok,0,"The model claims no information is available, whereas the reference provides a specific funding amount."
+25,12,qwen3.5-122b,ru_structured_full,2,"The model gave the correct numeric amount but omitted the unit (тыс. сом), missing key context."
+26,2,qwen3.5,ru_statements_8000tok,3,"The model correctly states that the Ministry has 7 budgetary programs, matching the reference answer."
+27,15,qwen3.5,ru_markdown_16000tok,2,The answer addresses the correct entity (number of budget lines) but provides an incorrect value (30 instead of 57).
+28,16,mistral-medium-3.5,ru_markdown_16000tok,0,"The model claims insufficient information, but the reference provides a specific 56% share, so the answer is incorrect."
+29,11,deepseek-v4-pro-thinking,ru_statements_full,3,"Model answer correctly provides the most common unit of measurement, percentage, matching the reference."
+30,18,deepseek-v4-pro-thinking,ru_structured_8000tok,3,"The model correctly identifies the program and the exact funding amount, matching the reference answer."
+31,6,qwen3.5-122b,ru_markdown_16000tok,3,"Model provides the correct total financing amount (56,424,894.1 тыс. сом), matching the reference value."
+32,16,qwen3.5-122b,ru_structured_8000tok,1,"The answer provides an incorrect percentage (49.58%) and mismatched figures, not the reference 56% share."
+33,8,kimi-k2.6,ru_statements_8000tok,3,Model correctly identifies Ministry of Education as receiving more funding and provides matching figures for 2026.
+34,13,glm-5,ru_markdown_full,3,The model answer matches the reference answer exactly.
+35,12,kimi-k2.6,ru_statements_16000tok,3,"The model provides the exact same funding amount, only differing in formatting, which is acceptable."
+36,19,mistral-medium-3.5,ru_markdown_16000tok,0,Both the number of programs and measures are incorrect compared to the reference answer.
+37,13,glm-5,ru_statements_full,2,The answer addresses the correct entity (count of ministries) but provides an incorrect number (15 instead of 22).
+38,12,qwen3.5-122b,ru_statements_8000tok,3,"The model provides the exact funding amount matching the reference (16,881,928.1 тыс. сом), which is correct."
+39,13,deepseek-v4-pro-thinking,ru_markdown_16000tok,0,"The model gave 8, but the correct number is 22, so the answer is incorrect."
+40,6,deepseek-v4-pro-thinking,ru_markdown_full,3,"The model provides the same funding amount (56,424,894.1 тыс. сом) matching the reference value, with only minor rounding differences."
+41,2,kimi-k2.6,ru_structured_16000tok,3,"The model correctly states the number of budget programs as 8, matching the reference answer."
+42,4,qwen3.5-122b,ru_statements_8000tok,2,Correctly identifies ministries and agencies but gives the wrong total count (44 instead of 60).
+43,20,kimi-k2.6,ru_statements_full,0,The model lists unrelated programs that do not match the top-3 programs identified in the reference answer.
+44,4,deepseek-v4-pro-thinking,ru_structured_full,2,The model identified the correct entity (number of ministries and agencies) but gave an incorrect count (59 instead of 60).
+45,14,mistral-medium-3.5,ru_structured_16000tok,0,The model answer does not provide the correct count (9) and fails to give a definitive answer to the question.
+46,17,qwen3.5,ru_markdown_full,3,The model correctly identifies the measure and exact funding amount matching the reference.
+47,17,mistral-medium-3.5,ru_markdown_full,0,"The model gave a different measure and amount, not matching the reference answer."
+48,20,mistral-medium-3.5,ru_statements_8000tok,0,The answer does not match the reference top‑3 programs; only one program coincides and the others are incorrect.
+49,18,qwen3.5,ru_markdown_16000tok,0,The model answer does not provide the correct program or funding amount; it states insufficient information and gives an unrelated figure.
+50,11,qwen3.5-122b,ru_statements_full,3,"Model answer correctly provides the most common unit of measurement, percentage, matching the reference."
+51,12,qwen3.5-122b,ru_markdown_8000tok,0,"The model claims no information is available, whereas the reference provides a specific funding amount, so the answer is incorrect."
+52,7,qwen3.5,ru_statements_full,0,"The model answer does not provide the total program-level budget of ~593.0 billion som and states the information is missing, which is incorrect."
+53,1,kimi-k2.6,ru_statements_full,3,"The model provides the exact same funding amount, only differing in formatting, which is acceptable."
+54,12,mistral-medium-3.5,ru_markdown_8000tok,0,"The model answer does not provide the required financing amount and states no information is available, which is incorrect."
+55,9,qwen3.5,ru_structured_8000tok,2,"Correctly states the budget declines, but gives an incorrect percentage (9.71% vs 7.1%)."
+56,15,kimi-k2.6,ru_statements_8000tok,2,The model identified the correct type of information (the count of budget lines) but gave an incorrect number (16 instead of 57).
+57,8,qwen3.5-122b,ru_statements_full,3,The answer correctly identifies the Ministry of Education as receiving more funding and provides matching figures.
+58,1,mistral-medium-3.5,ru_statements_full,3,"The model answer exactly matches the reference value, providing the correct financing amount."
+59,17,qwen3.5-122b,ru_statements_16000tok,3,The model correctly identifies the measure 'Повышение социальных выплат' with the exact funding amount matching the reference.
+60,11,mistral-medium-3.5,ru_markdown_full,3,"Model answer correctly provides the most common unit of measurement, percentage, matching the reference."

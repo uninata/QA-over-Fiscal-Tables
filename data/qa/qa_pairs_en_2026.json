@@ -1,0 +1,168 @@
+{
+  "description": "English QA pairs for Приложение 14 (2026) — Kyrgyz Republic Program-Based Budget",
+  "language": "en",
+  "source_file": "Приложение 14 (2026) ver4.xlsx",
+  "notes": "All amounts in тыс. сом (thousands of som) unless stated otherwise. Answers derived from program-level rows only (not measures) unless the question specifically asks about measures. Reference answers verified against Annotated_Appendix14_2026.xlsx sheet prilojenie_11_4.",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "lookup",
+      "question": "What is the 2026 funding for the 'School Education' program under the Ministry of Education?",
+      "answer": "42,380,106.4 тыс. сом",
+      "answer_detail": "This is the single largest education program and one of the largest in the entire budget."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "lookup",
+      "question": "How many budget programs does the Ministry of Health have?",
+      "answer": "8",
+      "answer_detail": "Управление и администрирование; Общественное здравоохранение; Организация предоставления услуг здравоохранения; Медицинское образование и управление человеческими ресурсами в здравоохранении; Первично-медико санитарная помощь; Стационарные услуги; Гемодиализное лечение; Реализация проектов государственных инвестиций (992)."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "lookup",
+      "question": "Which program has the largest funding allocation in the 2026 budget?",
+      "answer": "«Общегосударственные программы» Министерства финансов КР — 164,663,857.2 тыс. сом",
+      "answer_detail": "This is under the Ministry of Finance (General State Programs section) and represents nearly 30% of total program-level funding."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "count",
+      "question": "How many total ministries and agencies are represented in the program-based budget?",
+      "answer": "60",
+      "answer_detail": "60 ministries/agencies, each with between 1 and 7 budget programs."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "lookup",
+      "question": "What is the total 2026 funding for the Jogorku Kenesh (parliament)?",
+      "answer": "1,127,306.9 тыс. сом",
+      "answer_detail": "Across 2 programs: Управление и администрирование (1,047,143.9) and Обеспечение информацией (80,163.0)."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "aggregation",
+      "question": "What is the total 2026 funding across all programs of the Ministry of Education?",
+      "answer": "56,424,894.11 тыс. сом",
+      "answer_detail": "Sum of 4 programs: Управление и администрирование (1,962,869.4), Дошкольное образование (8,891,657.5), Школьное образование (42,380,106.4), Начальное и среднее проф. образование (2,178,080.8)."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "aggregation",
+      "question": "What is the total budget across all program-level items for 2026?",
+      "answer": "Примерно 593.0 млрд сом (593,028,014.8 тыс. сом)",
+      "answer_detail": "Sum of funding_2026 across all 156 program-level rows."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "comparison",
+      "question": "Which ministry receives more funding: Ministry of Health or Ministry of Education?",
+      "answer": "Министерство просвещения — 56,424,894.11 тыс. сом против 41,621,347.3 тыс. сом у здравоохранения",
+      "answer_detail": "Education exceeds healthcare by approximately 14.8 billion som."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "comparison",
+      "question": "Does the total program-level budget grow or shrink between 2026 and 2027, and by what percentage?",
+      "answer": "declines by 7.1%",
+      "answer_detail": "Total 2026: 593,028,014.8; Total 2027: 551,091,399.4. Decrease of approximately 42 billion som."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "lookup",
+      "question": "Which program has the smallest non-zero funding in 2026?",
+      "answer": "«Внесение предложений по защите материальных и социальных прав ветеранов» — 739.4 тыс. сом",
+      "answer_detail": "Under Общественное объединение «Республиканский Совет ветеранов войны, вооруженных сил, правоохранительных органов и труженников тыла»."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "indicator",
+      "question": "What is the most commonly used unit of measurement for performance indicators in the 2026 budget?",
+      "answer": "Процент (%)",
+      "answer_detail": "Followed by ед. (95), шт. (57), кол-во (53), чел. (50)."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "aggregation",
+      "question": "What is the total 2026 program funding for the Ministry of Transport and Communications?",
+      "answer": "16,881,928.10 тыс. сом",
+      "answer_detail": "5 programs including road maintenance (8.0 billion), international corridor rehabilitation (1.4 billion), etc."
+    },
+    {
+      "id": 13,
+      "difficulty": "hard",
+      "category": "filter",
+      "question": "How many ministries/agencies have exactly one budget program?",
+      "answer": "22",
+      "answer_detail": "These are typically smaller agencies with only an 'Управление и администрирование' program."
+    },
+    {
+      "id": 14,
+      "difficulty": "hard",
+      "category": "filter",
+      "question": "How many programs show funding growth of more than 10% between 2026 and 2027?",
+      "answer": "9",
+      "answer_detail": "Includes both positive (e.g. Национальная академия наук +133.6%) and negative changes (e.g. Цифровизация сельского хозяйства -85.2%)."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "indicator",
+      "question": "How many rows in the budget have a performance indicator measured in people (чел.)?",
+      "answer": "57",
+      "answer_detail": "Examples include number of children in preschools, number of inmates, number of trainees, etc."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "aggregation",
+      "question": "What share of the total 2026 program budget goes to the Ministry of Finance (General State Expenditures)?",
+      "answer": "56% (332,149,236.2 out of 593,028,014.9)",
+      "answer_detail": "This includes pensions, state debt, general state programs, social payments, and health insurance fund transfers."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "lookup",
+      "question": "Which budget measure (not program) has the largest 2026 funding?",
+      "answer": "Повышение социальных выплат - 76,517,019.4",
+      "answer_detail": "Under the Ministry of Finance (General State Programs section). This single measure exceeds the entire budgets of most ministries."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "comparison",
+      "question": "Which program under the Ministry of Emergency Situations receives the most 2026 funding?",
+      "answer": "Управление материальными ценностями государственного и мобилизационного резерва  4,522,247.8 тыс. сом",
+      "answer_detail": "Out of 7 programs, this one (managing state material reserves) is the largest, followed by 'Предупреждение и ликвидация чрезвычайных ситуаций' at 3,803,591.2."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "multi-step",
+      "question": "How many total budget programs and budget measures are in the 2026 program-based budget?",
+      "answer": "168 программ и 393 мер",
+      "answer_detail": "156 original programs plus 12 promoted orphan programs (program 992 'State Investment Projects' across 12 ministries). Measures: 393."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "multi-step",
+      "question": "Which programs show the largest absolute funding decrease from 2026 to 2027? Name the top 3.",
+      "answer": "1) Общегосударственные программы (Министерство Финансов); 2) Государственная поддержка и развитие ирригации (Минводресурсов); 3) Администрирование государственных доходов (Министерство финансов)",
+      "answer_detail": "Requires computing funding_2027 - funding_2026 for each program and sorting by largest negative difference. The general state programs line dominates due to its enormous size (~52.5 billion som decrease)."
+    }
+  ]
+}

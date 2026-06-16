@@ -1,0 +1,5 @@
+model,context,avg_score,easy_avg,medium_avg,hard_avg,strict_accuracy,lenient_accuracy,n_evaluated
+deepseek-v4-pro-thinking,ru_statements_all,2.47,2.8,3.0,1.83,0.733,0.867,15
+deepseek-v4-pro-thinking,ru_statements_top500,2.0,2.8,2.4,0.8,0.6,0.667,15
+qwen3.5,ru_statements_all,2.26,2.8,2.33,1.88,0.579,0.842,19
+qwen3.5,ru_statements_top500,2.15,2.8,2.29,1.62,0.5,0.8,20
