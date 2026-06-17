@@ -7,9 +7,6 @@ natural-language **statements**, raw **markdown** tables, and **structured**
 JSON with category-aware retrieval — across four iterative experiment rounds
 and ~5,160 API calls.
 
-**Final deliverables:** [`deliverables/report_v2.md`](deliverables/report_v2.md)
-(also `.docx`) and [`deliverables/presentation_v2.pptx`](deliverables/presentation_v2.pptx).
-
 ## Project Layout
 
 ```
