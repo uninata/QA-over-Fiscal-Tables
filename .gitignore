@@ -13,7 +13,6 @@ __pycache__/
 # Bulky generated artifacts
 results/raw/
 *.log
-.claude/
 scripts/
 deliverables/
 reports/
